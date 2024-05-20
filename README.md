@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img width="40%" src="/images/dragonos-full-logo.svg" alt="dragonos-logo"></br>
+  <img width="40%" src="./.vuepress/public/images/dragonos-full-logo.svg" alt="dragonos-logo"></br>
   <h2>DragonOS Community</h2>
 
 <a href="https://dragonos.org"><img alt="官网" src="https://img.shields.io/badge/%E5%AE%98%E7%BD%91-DragonOS.org-4c69e4?link=https%3A%2F%2Fbbs.dragonos.org.cn" ></a>
@@ -18,7 +18,7 @@
 
 如果您想了解更多关于项目结构以及DragonOS社区的内容，请转到[社区治理]以获取更多的信息！
 
-本文档的在线版本：[community.dragonos.org](community.dragonos.org)
+**本文档的在线版本：** [community.dragonos.org](https://community.dragonos.org)
 
 ## 交流讨论
 
