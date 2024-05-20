@@ -38,6 +38,10 @@ export default defineUserConfig({
                     'text': 'SIGs',
                     'link': '/sigs/',
                 },
+                {
+                    'text': "导师制",
+                    'link': '/mentorship/',
+                }
             ],
             sidebar: {
                 '/': 'heading',
@@ -47,9 +51,36 @@ export default defineUserConfig({
                         children: [
                             '/governance/',
                             '/governance/community-membership.md',
+                            '/governance/dev-group.md',
+                            '/governance/sig-wg-lifecycle.md',
+                            
+                        ]
+                    },
+                    {
+                        text:'SIG治理',
+                        children: [
+                            '/governance/sig-governance/',
+                            '/governance/sig-governance/sig-charter-guide.md',
+                        ]
+                    },
+                    {
+                        text:'WG治理',
+                        children: [
+                            '/governance/wg-governance/',
                         ]
                     }
-                ]
+                ],
+                '/contributors/': [
+                    {
+                        text: '贡献者指南',
+                        children: [
+                            '/contributors/',
+                            '/contributors/guide.md',
+                            '/contributors/cheat-sheet.md',
+                            '/contributors/code_of_conduct.md',
+                        ]
+                    }
+                ],
             }
         }
     ),
