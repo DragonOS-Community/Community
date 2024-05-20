@@ -1,9 +1,9 @@
 name: Build and Deploy
 on:
   push:
-    branches: [ "main", "patch-add-github-workflow" ]
+    branches: [ "master"]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
 
