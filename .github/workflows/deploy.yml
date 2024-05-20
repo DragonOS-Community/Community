@@ -5,6 +5,7 @@ on:
   pull_request:
     branches: [ "master" ]
 
+
 jobs:
 
   ensure-toolchain:
@@ -40,10 +41,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     needs: [ensure-toolchain]
-    environment:
-      name: github-pages
+
+    permissions:
+      contents: write
     steps:
-            
       - uses: actions/checkout@v3
 
       - name: Cache dependencies
