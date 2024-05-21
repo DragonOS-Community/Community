@@ -96,6 +96,8 @@ export default defineUserConfig({
                         text: 'SIG模版',
                         children: [
                             '/sigs/sig-template/',
+                            '/sigs/sig-template/charter.md',
+                            '/sigs/sig-template/contributing.md',
                         ]
                     }
                 ],
