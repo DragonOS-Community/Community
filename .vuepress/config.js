@@ -39,6 +39,10 @@ export default defineUserConfig({
                     'link': '/sigs/',
                 },
                 {
+                    'text': '工作组',
+                    'link': '/wgs/',
+                },
+                {
                     'text': "导师制",
                     'link': '/mentorship/',
                 }
@@ -81,6 +85,37 @@ export default defineUserConfig({
                         ]
                     }
                 ],
+                '/sigs/': [
+                    {
+                        text: 'SIGs',
+                        children: [
+                            '/sigs/',
+                        ]
+                    },
+                    {
+                        text: 'SIG模版',
+                        children: [
+                            '/sigs/sig-template/',
+                            '/sigs/sig-template/charter.md',
+                            '/sigs/sig-template/contributing.md',
+                        ]
+                    }
+                ],
+                '/wgs/': [
+                    {
+                        text: '工作组',
+                        children: [
+                            '/wgs/',
+                        ]
+                    },
+                    {
+                        text: '工作组模版',
+                        children: [
+                            '/wgs/wg-template/',
+                        ]
+                    }
+                ],
+
             }
         }
     ),
