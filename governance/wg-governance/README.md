@@ -87,4 +87,4 @@ PR合并后，工作组正式成立，直到它完成声明的目标，或自愿
 
 [年度报告]: /governance/annual-reports.md
 [SIG和WG的生命周期]: /governance/sig-wg-lifecycle.md
-[社区成员]: governance/community-membership.md
+[社区成员]: /governance/community-membership.md
