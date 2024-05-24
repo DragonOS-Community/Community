@@ -164,7 +164,7 @@ Approver状态限定于代码库的一部分。
 [贡献者指南]: /contributors/README.md
 [DragonOS论坛]: https://bbs.dragonos.org.cn
 [DragonOS Community的GitHub组织]: https://github.com/DragonOS-Community
-[membership request]: TODO
+[membership request]: https://github.com/DragonOS-Community/teams_data/issues/new?assignees=&labels=A-github-membership&projects=&template=membership.yml&title=REQUEST%3A+New+membership+for+%3Cyour-GH-handle%3E
 [持续活跃]: #如何衡量非活跃状态
 [code reviews]: TODO
 [子项目Maintainer]: /governance/sig-governance/README.md#子项目Maintainer
