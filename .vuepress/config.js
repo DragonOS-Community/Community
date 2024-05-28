@@ -82,6 +82,7 @@ export default defineUserConfig({
                             '/contributors/guide.md',
                             '/contributors/cheat-sheet.md',
                             '/contributors/code_of_conduct.md',
+                            '/contributors/expectation.md',
                         ]
                     }
                 ],
