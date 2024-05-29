@@ -86,25 +86,21 @@ export default defineUserConfig({
                     }
                 ],
                 '/sigs/': [
+                    '/sigs/',
                     {
-                        text: 'SIGs',
+                        text: 'SIG 模板',
                         children: [
-                            {
-                                text: 'SIG模版',
-                                link: '/sigs/sig-template/',
-                                children: [
-                                    '/sigs/sig-template/charter.md',
-                                    '/sigs/sig-template/contributing.md',
-                                ]
-                            },
-                            {
-                                text: 'SIG Network',
-                                link: '/sigs/sig-network/',
-                                children: [
-                                    '/sigs/sig-network/charter.md',
-                                    '/sigs/sig-network/contributing.md',
-                                ]
-                            },
+                            '/sigs/sig-template/',
+                            '/sigs/sig-template/charter.md',
+                            '/sigs/sig-template/contributing.md',
+                        ],
+                    },
+                    {
+                        text: 'SIG Network',
+                        children: [
+                            '/sigs/sig-network/',
+                            '/sigs/sig-network/charter.md',
+                            '/sigs/sig-network/contributing.md',
                         ]
                     },
                 ],
