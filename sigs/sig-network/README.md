@@ -52,9 +52,9 @@ Loopback网卡是一个虚拟网络设备，主要用于在本地机器上进行
 
 - 蔡俊源, [`@smallcjy`]
 
-### 解决actix-web与epoll的适配
+### 网络资源管理限制优化
 
-解决 epoll 管理 socket 所遇到的具体问题。
+epoll 是一种高效的 I/O 事件通知机制，当系统资源受到限制时，epoll 在管理 socket 时可能会出现一些问题。
 
 #### 子项目Maintainer
 
@@ -78,16 +78,17 @@ LoopbackDevice的实现分为四层：
 - #### LoopbackDeviceInner层
   负责实现网卡的基本功能，发包，收包等。
 
-### 解决actix-web与epoll的适配
+### 网络资源管理限制优化
 > 详见 [[Bug] 是否考虑资源限制对 epoll管理socket存在问题 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/235)
 
-解决在运行 test-backlog 程序时，行为与预期不符的问题。
+#### Socket管理
+负责socket的创建、绑定、监听和接受连接。
 
-#### 问题复现与跟踪
-使用 strace 跟踪 epoll_ctl 和 epoll_wait 系统调用。复现 test-backlog 程序的两个进程共享 epoll 实例管理 socket 的问题。
+#### Epoll管理
+负责epoll实例的创建、管理和删除，确保事件正确注册和处理。
 
-#### 原因分析
-分析 epoll_ctl 在 EPOLL_CTL_ADD 操作缺失的原因。调查 cgroup 或mmap map_fixed等资源限制有关功能缺失对 epoll 和 socket 管理的影响。
+#### 问题描述与跟踪
+使用 strace 跟踪 epoll_ctl 和 epoll_wait 等系统调用，调查 cgroup 或mmap map_fixed 等资源限制有关功能缺失对 epoll 和 socket 管理的影响。
 
 <!-- 引用 -->
 [工作组]: /governance/dev-group.md#WG（工作组）
