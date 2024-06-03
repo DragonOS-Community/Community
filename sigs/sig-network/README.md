@@ -88,7 +88,7 @@ LoopbackDevice的实现分为四层：
 负责epoll实例的创建、管理和删除，确保事件正确注册和处理。
 
 #### 问题描述与跟踪
-使用 strace 跟踪 epoll_ctl 和 epoll_wait 等系统调用，调查 cgroup 或mmap map_fixed 等资源限制有关功能缺失对 epoll 和 socket 管理的影响。
+跟踪 epoll 和 socket 相关系统调用，调查 cgroup 或mmap map_fixed 等资源限制有关功能缺失对 epoll 和 socket 管理的影响。
 
 <!-- 引用 -->
 [工作组]: /governance/dev-group.md#WG（工作组）
