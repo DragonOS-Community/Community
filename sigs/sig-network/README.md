@@ -63,6 +63,16 @@ SIG 主席负责管理 SIG 的运营和流程。
 
   - [[Bug] 是否考虑资源限制对 epoll管理socket存在问题 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/235)
 
+### ioctl & setsockopt
+
+- #### Maintainer
+
+  - 戴吕琛，['@Samuka007']
+
+- #### Contact
+ 
+  - [实现 ioctl & setsockopt - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/264)
+
 ## 子项目的详细信息
 
 暂无文档
