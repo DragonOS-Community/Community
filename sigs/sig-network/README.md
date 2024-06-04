@@ -46,7 +46,7 @@ SIG 主席负责管理 SIG 的运营和流程。
 
 ### Loopback网卡实现
 
-Loopback网卡是一个虚拟网络设备，主要用于在本地机器上进行网络通信。
+> 详见 [实现Loopback回环网卡设备及其驱动 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/238)
 
 #### 子项目Maintainer
 
@@ -61,22 +61,6 @@ Loopback网卡是一个虚拟网络设备，主要用于在本地机器上进行
 - 付鼎拔, [`@Saga1718`]
 
 ## 子项目的详细信息
-
-### Loopback网卡实现
-> 详见 [实现Loopback回环网卡设备及其驱动 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/238)
-
-LoopbackDevice的实现分为四层：
-- #### Loopback层
-  实现的核心。其定义Loopback设备的数据结构，采用 `VecDeque<Vec>` 用来储存接受的数据包和代发送的数据包。
-
-- #### LoopbackInterface层
-  负责实现网卡接口设备的基本功能，实现Device、NetDevice、KObject的接口函数。
-
-- #### LoopbackDeviceInnerWapper层
-  用于封装底层，具有更好的封装性。
-
-- #### LoopbackDeviceInner层
-  负责实现网卡的基本功能，发包，收包等。
 
 ### 解决actix-web与epoll的适配
 > 详见 [[Bug] 是否考虑资源限制对 epoll管理socket存在问题 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/235)
