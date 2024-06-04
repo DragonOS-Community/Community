@@ -49,10 +49,8 @@
 
   - [实现Loopback回环网卡设备及其驱动 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/238)
 
-### 解决actix-web与epoll的适配
-<!-- 
-解决 epoll 管理 socket 所遇到的具体问题。
--->
+### epoll资源管理 & socket资源管理
+
 - #### Maintainer
 
   - 付鼎拔, [`@Saga1718`]
@@ -75,21 +73,6 @@
 
 暂无文档
 
-<!--
-
-### 解决actix-web与epoll的适配
-
-解决在运行 test-backlog 程序时，行为与预期不符的问题。
-
-#### 问题复现与跟踪
-使用 strace 跟踪 epoll_ctl 和 epoll_wait 系统调用。复现 test-backlog 程序的两个进程共享 epoll 实例管理 socket 的问题。
-
-#### 原因分析
-分析 epoll_ctl 在 EPOLL_CTL_ADD 操作缺失的原因。调查 cgroup 或mmap map_fixed等资源限制有关功能缺失对 epoll 和 socket 管理的影响。
-
- -->
-
-<!-- 引用 -->
 [工作组]: /governance/dev-group.md#WG（工作组）
 [子项目]: /governance/dev-group.md#子项目
 [示例工作组]: /wgs/wg-template/README.md
