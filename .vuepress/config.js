@@ -87,20 +87,23 @@ export default defineUserConfig({
                     }
                 ],
                 '/sigs/': [
+                    '/sigs/',
                     {
-                        text: 'SIGs',
-                        children: [
-                            '/sigs/',
-                        ]
-                    },
-                    {
-                        text: 'SIG模版',
+                        text: 'SIG 模板',
                         children: [
                             '/sigs/sig-template/',
                             '/sigs/sig-template/charter.md',
                             '/sigs/sig-template/contributing.md',
+                        ],
+                    },
+                    {
+                        text: 'SIG Network',
+                        children: [
+                            '/sigs/sig-network/',
+                            '/sigs/sig-network/charter.md',
+                            '/sigs/sig-network/contributing.md',
                         ]
-                    }
+                    },
                 ],
                 '/wgs/': [
                     {
