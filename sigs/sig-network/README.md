@@ -1,24 +1,21 @@
 # SIG-Network
 
-<!-- > 这个目录下是SIG信息的模版，当你申请成立新的SIG的时候，需要填写相关的内容。 -->
-
-<!-- （这里是一段SIG的简介）SIG-template维护了XXXXX，它的目标是XXXX。 -->
-
-
 该 [章程](charter.md) 定义了 [SIG-Network] 的范围和治理相关的内容。
 
 ## 会议
 
-- SIG定期会议：**北京时间 周五 10:00** （每两周一次）
-  - 会议记录和议程 （这里要指向对应的文档链接）
-  - 会议视频 （指向DragonOS社区官方bilibili账号下，每个SIG的合集链接）
+- SIG定期会议：**北京时间 周五** （每两周一次，具体时间待定）
 
+  - 会议记录和议程（暂无）
+
+  - 会议视频 （指向DragonOS社区官方bilibili账号下，每个SIG的合集链接）
 
 ## SIG管理层
 
 ### 主席
 
 SIG 主席负责管理 SIG 的运营和流程。
+
 - 戴吕琛，[`@Samuka007`]，华南理工大学
 
 ### 技术负责人
@@ -46,24 +43,33 @@ SIG 主席负责管理 SIG 的运营和流程。
 
 ### Loopback网卡实现
 
-> 详见 [实现Loopback回环网卡设备及其驱动 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/238)
+- #### Maintainer
 
-#### 子项目Maintainer
+  - 蔡俊源, [`@smallcjy`]
 
-- 蔡俊源, [`@smallcjy`]
+- #### Contact
+
+  - [实现Loopback回环网卡设备及其驱动 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/238)
 
 ### 解决actix-web与epoll的适配
-
+<!-- 
 解决 epoll 管理 socket 所遇到的具体问题。
+-->
+- #### Maintainer
 
-#### 子项目Maintainer
+  - 付鼎拔, [`@Saga1718`]
 
-- 付鼎拔, [`@Saga1718`]
+- #### Contact
+
+  - [[Bug] 是否考虑资源限制对 epoll管理socket存在问题 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/235)
 
 ## 子项目的详细信息
 
+暂无文档
+
+<!--
+
 ### 解决actix-web与epoll的适配
-> 详见 [[Bug] 是否考虑资源限制对 epoll管理socket存在问题 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/235)
 
 解决在运行 test-backlog 程序时，行为与预期不符的问题。
 
@@ -72,6 +78,8 @@ SIG 主席负责管理 SIG 的运营和流程。
 
 #### 原因分析
 分析 epoll_ctl 在 EPOLL_CTL_ADD 操作缺失的原因。调查 cgroup 或mmap map_fixed等资源限制有关功能缺失对 epoll 和 socket 管理的影响。
+
+ -->
 
 <!-- 引用 -->
 [工作组]: /governance/dev-group.md#WG（工作组）
