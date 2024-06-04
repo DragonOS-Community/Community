@@ -100,6 +100,14 @@ export default defineUserConfig({
                             '/sigs/sig-template/charter.md',
                             '/sigs/sig-template/contributing.md',
                         ]
+                    },
+                    {
+                        text: 'SIG Cloud Provider',
+                        children: [
+                            '/sigs/sig-cloud_provider',
+                            '/sigs/sig-cloud_provider/charter.md',
+                            '/sigs/sig-cloud_provider/contributing.md',
+                        ]
                     }
                 ],
                 '/wgs/': [
