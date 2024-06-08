@@ -26,7 +26,7 @@ SIG主席负责管理SIG的运营和流程
 - Github团队
   - [@DragonOS-Community/DragonOS](https://github.com/DragonOS-Community/DragonOS)
 
-- PMC联络人：
+- PMC联络人：[@ZZJJWarth](https://github.com/ZZJJWarth) [@1037827920](https://github.com/1037827920)
 
 ## 工作组 
 
