@@ -27,7 +27,7 @@ export default defineUserConfig({
                     'link': '/governance/',
                 },
                 {
-                    'text': '交流',
+                    'text': '社区交流',
                     'link': '/communication/',
                 },
                 {
@@ -74,6 +74,15 @@ export default defineUserConfig({
                         ]
                     }
                 ],
+                '/communication/': [
+                    {
+                        text: '社区交流',
+                        children: [
+                            '/communication/',
+                            '/communication/dragonos-community-conference.md',
+                        ]
+                    }
+                ],
                 '/contributors/': [
                     {
                         text: '贡献者指南',
@@ -86,11 +95,13 @@ export default defineUserConfig({
                         ]
                     }
                 ],
+                
                 '/sigs/': [
                     {
                         text: 'SIGs',
                         children: [
                             '/sigs/',
+                            '/sigs/sig-list.md',
                         ]
                     },
                     {
@@ -115,6 +126,7 @@ export default defineUserConfig({
                         text: '工作组',
                         children: [
                             '/wgs/',
+                            '/wgs/wg-list.md',
                         ]
                     },
                     {
