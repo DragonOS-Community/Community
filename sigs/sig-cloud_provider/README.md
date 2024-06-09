@@ -34,19 +34,10 @@ SIG主席负责管理SIG的运营和流程
 
 ## 子项目列表
 
-**VirtIO-blk支持**
+**将DragonOS移植到腾讯云/阿里云**
 
 - Maintainer
   - 曾俊，[@ZZJJWarth](https://github.com/ZZJJWarth)
+  - 黄铭涛，[@1037827920](https://github.com/1037827920)
 
 ## 子项目列表的详细信息
-
-### VirtIO-blk支持
-
-#### 概述
-
-在[腾讯云](https://cloud.tencent.com/)环境中，AHCI磁盘不被使用，而是采用了VirtIO磁盘。VirtIO是一种高效的虚拟化接口标准。在此子项目中，将实现DragonOS对VirtIO-blk磁盘的支持，确保其在[腾讯云](https://cloud.tencent.com/)上能够正常运行
-
-目标
-
-确保[DragonOS](https://dragonos.org/)能够识别并使用VirtIO-blk磁盘
