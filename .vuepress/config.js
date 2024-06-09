@@ -100,6 +100,14 @@ export default defineUserConfig({
                             '/sigs/sig-template/charter.md',
                             '/sigs/sig-template/contributing.md',
                         ]
+                    },
+                    {
+                        text: 'SIG Main',
+                        children: [
+                            '/sigs/sig-main',
+                            '/sigs/sig-main/charter.md',
+                            '/sigs/sig-main/contributing.md',
+                        ]
                     }
                 ],
                 '/wgs/': [
