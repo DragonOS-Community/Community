@@ -128,6 +128,24 @@ export default defineUserConfig({
                         ]
                     }
                 ],
+                '/mentorship/': [
+                    {
+                        text: '导师制',
+                        children: [
+                            '/mentorship/',
+                            '/mentorship/mentee-guide.md',
+                            '/mentorship/mentor-guide.md',
+                        ]
+                    },
+                    {
+                        text: '指导计划',
+                        children: [
+                            '/mentorship/programs/educational-learning-courses.md',
+                            '/mentorship/programs/project-based-mentorship.md',
+                            '/mentorship/programs/ospp.md',
+                        ]
+                    }
+                ],
 
             }
         }
