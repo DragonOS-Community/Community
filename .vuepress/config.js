@@ -117,7 +117,7 @@ export default defineUserConfig({
                     {
                         text: 'SIG Main',
                         children: [
-                            '/sigs/sig-main',
+                            '/sigs/sig-main/',
                             '/sigs/sig-main/charter.md',
                             '/sigs/sig-main/contributing.md',
                         ]
