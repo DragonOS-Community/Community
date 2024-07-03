@@ -1,6 +1,6 @@
-# 介绍README
+# SIG-Cloud Provider
 
-[SIG-Cloud Provider](./README.md)维护了将[DragonOS](https://dragonos.org/)移植到主要云服务提供商（如[腾讯云](https://cloud.tencent.com/)和[AWS](https://cn.aliyun.com/)）平台的项目。其目标是确保DragonOS在这些云平台上的兼容性、性能优化和稳定运行。
+[SIG-Cloud Provider](./README.md)维护了将[DragonOS](https://dragonos.org/)移植到主要云服务提供商（如[腾讯云](https://cloud.tencent.com/)和[阿里云](https://cn.aliyun.com/)）平台的项目。其目标是确保DragonOS在这些云平台上的兼容性、性能优化和稳定运行。
 
 [SIG架构章程](./charter.md)定义了[SIG-Cloud Provider](./README.md)的范围和治理相关的内容。
 
@@ -24,9 +24,11 @@ SIG主席负责管理SIG的运营和流程
 - BBS 板块：[最新SIG - Cloud Provider话题 - DragonOS开源社区](https://bbs.dragonos.org.cn/c/sig-cloud/11)
 
 - Github团队
-  - [@DragonOS-Community/DragonOS](https://github.com/DragonOS-Community/DragonOS)
+  - [@DragonOS-Community/teams/sig-cloud-provider)](https://github.com/orgs/DragonOS-Community/teams/sig-cloud-provider)
 
-- PMC联络人：[@ZZJJWarth](https://github.com/ZZJJWarth) [@1037827920](https://github.com/1037827920)
+- PMC联络人：
+  - [@ZZJJWarth](https://github.com/ZZJJWarth)
+  - [@1037827920](https://github.com/1037827920)
 
 ## 工作组 
 
