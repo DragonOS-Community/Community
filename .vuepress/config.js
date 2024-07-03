@@ -88,7 +88,9 @@ export default defineUserConfig({
                         text: '贡献者指南',
                         children: [
                             '/contributors/',
-                            '/contributors/guide.md',
+                            '/contributors/code-style.md',
+                            '/contributors/github-workflow.md',
+                            '/contributors/pull-requests.md',
                             '/contributors/cheat-sheet.md',
                             '/contributors/code_of_conduct.md',
                             '/contributors/expectation.md',
