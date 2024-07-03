@@ -116,11 +116,20 @@ export default defineUserConfig({
                         ],
                     },
                     {
+
                         text: 'SIG Main',
                         children: [
                             '/sigs/sig-main/',
                             '/sigs/sig-main/charter.md',
                             '/sigs/sig-main/contributing.md',
+                        ]
+                    },
+                    {
+                        text: 'SIG Cloud Provider',
+                        children: [
+                            '/sigs/sig-cloud-provider/',
+                            '/sigs/sig-cloud-provider/charter.md',
+                            '/sigs/sig-cloud-provider/contributing.md',
                         ]
                     },
                     {
