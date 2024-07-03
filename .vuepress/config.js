@@ -27,7 +27,7 @@ export default defineUserConfig({
                     'link': '/governance/',
                 },
                 {
-                    'text': '交流',
+                    'text': '社区交流',
                     'link': '/communication/',
                 },
                 {
@@ -74,23 +74,36 @@ export default defineUserConfig({
                         ]
                     }
                 ],
+                '/communication/': [
+                    {
+                        text: '社区交流',
+                        children: [
+                            '/communication/',
+                            '/communication/dragonos-community-conference.md',
+                        ]
+                    }
+                ],
                 '/contributors/': [
                     {
                         text: '贡献者指南',
                         children: [
                             '/contributors/',
-                            '/contributors/guide.md',
+                            '/contributors/code-style.md',
+                            '/contributors/github-workflow.md',
+                            '/contributors/pull-requests.md',
                             '/contributors/cheat-sheet.md',
                             '/contributors/code_of_conduct.md',
                             '/contributors/expectation.md',
                         ]
                     }
                 ],
+                
                 '/sigs/': [
                     {
                         text: 'SIGs',
                         children: [
                             '/sigs/',
+                            '/sigs/sig-list.md',
                         ]
                     },
                     {
@@ -102,9 +115,18 @@ export default defineUserConfig({
                         ]
                     },
                     {
+
+                        text: 'SIG Main',
+                        children: [
+                            '/sigs/sig-main/',
+                            '/sigs/sig-main/charter.md',
+                            '/sigs/sig-main/contributing.md',
+                        ]
+                    },
+                    {
                         text: 'SIG Cloud Provider',
                         children: [
-                            '/sigs/sig-cloud_provider',
+                            '/sigs/sig-cloud_provider/',
                             '/sigs/sig-cloud_provider/charter.md',
                             '/sigs/sig-cloud_provider/contributing.md',
                         ]
@@ -115,12 +137,31 @@ export default defineUserConfig({
                         text: '工作组',
                         children: [
                             '/wgs/',
+                            '/wgs/wg-list.md',
                         ]
                     },
                     {
                         text: '工作组模版',
                         children: [
                             '/wgs/wg-template/',
+                        ]
+                    }
+                ],
+                '/mentorship/': [
+                    {
+                        text: '导师制',
+                        children: [
+                            '/mentorship/',
+                            '/mentorship/mentee-guide.md',
+                            '/mentorship/mentor-guide.md',
+                        ]
+                    },
+                    {
+                        text: '指导计划',
+                        children: [
+                            '/mentorship/programs/educational-learning-courses.md',
+                            '/mentorship/programs/project-based-mentorship.md',
+                            '/mentorship/programs/ospp.md',
                         ]
                     }
                 ],
