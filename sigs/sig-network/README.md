@@ -37,35 +37,8 @@
 
 以下 [子项目] 归 [SIG-Network] 所有:
 
-### Loopback网卡实现
+暂无文档
 
-- #### Maintainer
-
-  - 蔡俊源, [`@smallcjy`]
-
-- #### Contact
-
-  - [实现Loopback回环网卡设备及其驱动 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/238)
-
-### epoll资源管理 & socket资源管理
-
-- #### Maintainer
-
-  - 付鼎拔, [`@Saga1718`]
-
-- #### Contact
-
-  - [[Bug] 是否考虑资源限制对 epoll管理socket存在问题 - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/235)
-
-### ioctl & setsockopt
-
-- #### Maintainer
-
-  - 戴吕琛，[`@Samuka007`]
-
-- #### Contact
- 
-  - [实现 ioctl & setsockopt - DragonOS开源社区](https://bbs.dragonos.org.cn/t/topic/264)
 
 ## 子项目的详细信息
 
