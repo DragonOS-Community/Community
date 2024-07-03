@@ -27,7 +27,7 @@ export default defineUserConfig({
                     'link': '/governance/',
                 },
                 {
-                    'text': '交流',
+                    'text': '社区交流',
                     'link': '/communication/',
                 },
                 {
@@ -57,20 +57,29 @@ export default defineUserConfig({
                             '/governance/community-membership.md',
                             '/governance/dev-group.md',
                             '/governance/sig-wg-lifecycle.md',
-                            
+
                         ]
                     },
                     {
-                        text:'SIG治理',
+                        text: 'SIG治理',
                         children: [
                             '/governance/sig-governance/',
                             '/governance/sig-governance/sig-charter-guide.md',
                         ]
                     },
                     {
-                        text:'WG治理',
+                        text: 'WG治理',
                         children: [
                             '/governance/wg-governance/',
+                        ]
+                    }
+                ],
+                '/communication/': [
+                    {
+                        text: '社区交流',
+                        children: [
+                            '/communication/',
+                            '/communication/dragonos-community-conference.md',
                         ]
                     }
                 ],
@@ -79,21 +88,40 @@ export default defineUserConfig({
                         text: '贡献者指南',
                         children: [
                             '/contributors/',
-                            '/contributors/guide.md',
+                            '/contributors/code-style.md',
+                            '/contributors/github-workflow.md',
+                            '/contributors/pull-requests.md',
                             '/contributors/cheat-sheet.md',
                             '/contributors/code_of_conduct.md',
+                            '/contributors/expectation.md',
                         ]
                     }
                 ],
+
                 '/sigs/': [
                     '/sigs/',
                     {
-                        text: 'SIG 模板',
+                        text: 'SIGs',
+                        children: [
+                            '/sigs/',
+                            '/sigs/sig-list.md',
+                        ]
+                    },
+                    {
+                        text: 'SIG模版',
                         children: [
                             '/sigs/sig-template/',
                             '/sigs/sig-template/charter.md',
                             '/sigs/sig-template/contributing.md',
                         ],
+                    },
+                    {
+                        text: 'SIG Main',
+                        children: [
+                            '/sigs/sig-main/',
+                            '/sigs/sig-main/charter.md',
+                            '/sigs/sig-main/contributing.md',
+                        ]
                     },
                     {
                         text: 'SIG Network',
@@ -109,12 +137,31 @@ export default defineUserConfig({
                         text: '工作组',
                         children: [
                             '/wgs/',
+                            '/wgs/wg-list.md',
                         ]
                     },
                     {
                         text: '工作组模版',
                         children: [
                             '/wgs/wg-template/',
+                        ]
+                    }
+                ],
+                '/mentorship/': [
+                    {
+                        text: '导师制',
+                        children: [
+                            '/mentorship/',
+                            '/mentorship/mentee-guide.md',
+                            '/mentorship/mentor-guide.md',
+                        ]
+                    },
+                    {
+                        text: '指导计划',
+                        children: [
+                            '/mentorship/programs/educational-learning-courses.md',
+                            '/mentorship/programs/project-based-mentorship.md',
+                            '/mentorship/programs/ospp.md',
                         ]
                     }
                 ],
