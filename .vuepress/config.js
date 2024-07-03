@@ -88,7 +88,9 @@ export default defineUserConfig({
                         text: '贡献者指南',
                         children: [
                             '/contributors/',
-                            '/contributors/guide.md',
+                            '/contributors/code-style.md',
+                            '/contributors/github-workflow.md',
+                            '/contributors/pull-requests.md',
                             '/contributors/cheat-sheet.md',
                             '/contributors/code_of_conduct.md',
                             '/contributors/expectation.md',
@@ -125,6 +127,24 @@ export default defineUserConfig({
                         text: '工作组模版',
                         children: [
                             '/wgs/wg-template/',
+                        ]
+                    }
+                ],
+                '/mentorship/': [
+                    {
+                        text: '导师制',
+                        children: [
+                            '/mentorship/',
+                            '/mentorship/mentee-guide.md',
+                            '/mentorship/mentor-guide.md',
+                        ]
+                    },
+                    {
+                        text: '指导计划',
+                        children: [
+                            '/mentorship/programs/educational-learning-courses.md',
+                            '/mentorship/programs/project-based-mentorship.md',
+                            '/mentorship/programs/ospp.md',
                         ]
                     }
                 ],

@@ -64,7 +64,14 @@ Issue是最直接最简单的沟通方式，issue里面包含了正式的提问�
 
 ### 微信公众号
 
-在微信搜索“DragonOS”即可
+在微信搜索“DragonOS”即可.
+
+## 什么样的消息才是合适的？
+
+在社区沟通平台上的所有信息均受[DragonOS社区行为准则]的约束。您在社区沟通平台上发送的信息，将会被社区贡献者和DragonOS的用户或者是其他人所看到，
+因此，商业信息将收到严格的审核。请注意，允许商业内容，但是，未经审核的商业内容一般是不允许的。**关于商业内容的审核，请通过邮件，与PMC(项目管理委员会)进行沟通。**
+
+项目管理委员会联系方式：[pmc@dragonos.org]
 
 
 [社区成员资格]: /governance/community-membership.md
@@ -73,4 +80,4 @@ Issue是最直接最简单的沟通方式，issue里面包含了正式的提问�
 [WG(工作组)列表]: /wgs/wg-list.md
 [DragonOS社区论坛]: https://bbs.dragonos.org.cn
 [DragonOS Community Conference]: /communication/dragonos-community-conference.md
-
+[pmc@dragonos.org]: mailto:pmc@dragonos.org
