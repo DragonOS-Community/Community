@@ -57,18 +57,18 @@ export default defineUserConfig({
                             '/governance/community-membership.md',
                             '/governance/dev-group.md',
                             '/governance/sig-wg-lifecycle.md',
-                            
+
                         ]
                     },
                     {
-                        text:'SIG治理',
+                        text: 'SIG治理',
                         children: [
                             '/governance/sig-governance/',
                             '/governance/sig-governance/sig-charter-guide.md',
                         ]
                     },
                     {
-                        text:'WG治理',
+                        text: 'WG治理',
                         children: [
                             '/governance/wg-governance/',
                         ]
@@ -97,8 +97,9 @@ export default defineUserConfig({
                         ]
                     }
                 ],
-                
+
                 '/sigs/': [
+                    '/sigs/',
                     {
                         text: 'SIGs',
                         children: [
@@ -112,7 +113,7 @@ export default defineUserConfig({
                             '/sigs/sig-template/',
                             '/sigs/sig-template/charter.md',
                             '/sigs/sig-template/contributing.md',
-                        ]
+                        ],
                     },
                     {
 
@@ -130,7 +131,15 @@ export default defineUserConfig({
                             '/sigs/sig-cloud-provider/charter.md',
                             '/sigs/sig-cloud-provider/contributing.md',
                         ]
-                    }
+                    },
+                    {
+                        text: 'SIG Network',
+                        children: [
+                            '/sigs/sig-network/',
+                            '/sigs/sig-network/charter.md',
+                            '/sigs/sig-network/contributing.md',
+                        ]
+                    },
                 ],
                 '/wgs/': [
                     {
