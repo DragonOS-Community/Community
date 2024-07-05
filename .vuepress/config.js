@@ -140,6 +140,14 @@ export default defineUserConfig({
                             '/sigs/sig-network/contributing.md',
                         ]
                     },
+                    {
+                        text: 'SIG MM',
+                        children: [
+                            '/sigs/sig-mm/',
+                            '/sigs/sig-mm/charter.md',
+                            '/sigs/sig-mm/contributing.md',
+                        ]
+                    },
                 ],
                 '/wgs/': [
                     {
