@@ -140,6 +140,14 @@ export default defineUserConfig({
                             '/sigs/sig-network/contributing.md',
                         ]
                     },
+                    {
+                        text: 'SIG Virtualization',
+                        children: [
+                            '/sigs/sig-virtualization/',
+                            '/sigs/sig-virtualization/charter.md',
+                            '/sigs/sig-virtualization/contributing.md',
+                        ]
+                    },
                 ],
                 '/wgs/': [
                     {
