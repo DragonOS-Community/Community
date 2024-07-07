@@ -140,6 +140,14 @@ export default defineUserConfig({
                             '/sigs/sig-network/contributing.md',
                         ]
                     },
+                    {
+                        text: 'SIG Observation & Testing',
+                        children: [
+                            '/sigs/sig-observation-testing/',
+                            '/sigs/sig-observation-testing/charter.md',
+                            '/sigs/sig-observation-testing/contributing.md',
+                        ]
+                    },
                 ],
                 '/wgs/': [
                     {
