@@ -101,13 +101,6 @@ export default defineUserConfig({
                 '/sigs/': [
                     '/sigs/',
                     {
-                        text: 'SIGs',
-                        children: [
-                            '/sigs/',
-                            '/sigs/sig-list.md',
-                        ]
-                    },
-                    {
                         text: 'SIG模版',
                         children: [
                             '/sigs/sig-template/',
@@ -138,6 +131,14 @@ export default defineUserConfig({
                             '/sigs/sig-network/',
                             '/sigs/sig-network/charter.md',
                             '/sigs/sig-network/contributing.md',
+                        ]
+                    },
+                    {
+                        text: 'SIG Virtualization',
+                        children: [
+                            '/sigs/sig-virtualization/',
+                            '/sigs/sig-virtualization/charter.md',
+                            '/sigs/sig-virtualization/contributing.md',
                         ]
                     },
                     {

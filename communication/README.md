@@ -76,7 +76,7 @@ Issue是最直接最简单的沟通方式，issue里面包含了正式的提问�
 
 [社区成员资格]: /governance/community-membership.md
 [DragonOS社区行为准则]: /contributors/code_of_conduct.md
-[SIG(特别兴趣小组)列表]: /sigs/sig-list.md
+[SIG(特别兴趣小组)列表]: /sigs/README.md
 [WG(工作组)列表]: /wgs/wg-list.md
 [DragonOS社区论坛]: https://bbs.dragonos.org.cn
 [DragonOS Community Conference]: /communication/dragonos-community-conference.md
