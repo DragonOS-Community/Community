@@ -57,7 +57,7 @@ export default defineUserConfig({
                             '/governance/community-membership.md',
                             '/governance/dev-group.md',
                             '/governance/sig-wg-lifecycle.md',
-
+                            '/governance/staff-info.md',
                         ]
                     },
                     {
