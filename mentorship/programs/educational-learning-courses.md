@@ -4,11 +4,11 @@
 
 每个课程都有几名导师，并且我们鼓励有志于帮助其他人入门的贡献者，主动成为课程导师。
 
-教育学习课程位于[mentorship仓库]内 （TODO，还没创建这个仓库）.
+教育学习课程位于[mentorship仓库]内.
 
 ## 想成为导师？
 
 请转到[导师指南]！
 
-[mentorship仓库]: TODO
+[mentorship仓库]: https://github.com/DragonOS-Community/mentorship
 [导师指南]: /mentorship/mentor-guide.md

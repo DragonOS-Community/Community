@@ -83,5 +83,5 @@
 [社区成员资格]: /governance/community-membership.md
 [教育学习课程]: /mentorship/programs/educational-learning-courses.md
 [基于项目的指导]: /mentorship/programs/project-based-mentorship.md
-[mentorship仓库]: TODO
+[mentorship仓库]: https://github.com/DragonOS-Community/mentorship
 [pmc@dragonos.org]: mailto:pmc@dragonos.org
