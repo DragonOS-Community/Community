@@ -24,6 +24,6 @@
 
 请转到[导师指南]！
 
-[mentorship仓库]: TODO
+[mentorship仓库]: https://github.com/DragonOS-Community/mentorship
 [DragonOS的bbs]: https://bbs.dragonos.org.cn
 [导师指南]: /mentorship/mentor-guide.md
