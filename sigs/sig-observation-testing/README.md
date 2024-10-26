@@ -14,7 +14,7 @@
 
 SIG主席负责管理SIG的运营和流程
 
-- 池克俭，[@Chiichen](https://github.com/Chiichen)，华南理工大学 
+- 池克俭，[@Chiichen](https://github.com/Chiichen)，华南理工大学
 
 ## 联系方式
 
@@ -32,9 +32,10 @@ SIG主席负责管理SIG的运营和流程
 
 ## 子项目列表
 
-### eBPF运行时移植
+### eBPF
 
 - Maintainer
+  - 陈林峰，[@Godones](https://github.com/Godones)
   - 池克俭，[@Chiichen](https://github.com/Chiichen)
 
 ## 子项目列表的详细信息
