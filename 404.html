@@ -3,37 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <meta name="generator" content="VuePress 2.0.0-rc.23" />
     <style>
       :root {
-        --c-bg: #fff;
+        --vp-c-bg: #fff;
       }
 
-      html.dark {
-        --c-bg: #22272e;
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
       }
 
       html,
       body {
-        background-color: var(--c-bg);
+        background-color: var(--vp-c-bg);
       }
     </style>
     <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme')
-      const systemDarkMode =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches
-      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-        document.documentElement.classList.toggle('dark', true)
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
       }
     </script>
     <title></title><meta name="description" content="">
-    <link rel="preload" href="/assets/style-BDZmSSuf.css" as="style"><link rel="stylesheet" href="/assets/style-BDZmSSuf.css">
-    <link rel="modulepreload" href="/assets/app-CmntYhet.js"><link rel="modulepreload" href="/assets/404.html-BaFtCcSn.js">
-    <link rel="prefetch" href="/assets/index.html-DhRPs45k.js" as="script"><link rel="prefetch" href="/assets/index.html-BCLmUi-h.js" as="script"><link rel="prefetch" href="/assets/dragonos-community-conference.html-CWqW2Ctw.js" as="script"><link rel="prefetch" href="/assets/index.html-Cs92j2wW.js" as="script"><link rel="prefetch" href="/assets/cheat-sheet.html-DJabuBuk.js" as="script"><link rel="prefetch" href="/assets/code-style.html-Dft_PBAz.js" as="script"><link rel="prefetch" href="/assets/code_of_conduct.html-BRXoVhOx.js" as="script"><link rel="prefetch" href="/assets/expectation.html-D4MbIHpL.js" as="script"><link rel="prefetch" href="/assets/github-workflow.html-DDOKpHFX.js" as="script"><link rel="prefetch" href="/assets/pull-requests.html-CUv4vZRf.js" as="script"><link rel="prefetch" href="/assets/resources.html-D_SKq8b5.js" as="script"><link rel="prefetch" href="/assets/index.html-CaVU4dIR.js" as="script"><link rel="prefetch" href="/assets/annual-reports.html-3Zax109j.js" as="script"><link rel="prefetch" href="/assets/community-membership.html-hG8VE2MV.js" as="script"><link rel="prefetch" href="/assets/dev-group.html-DCqkA65d.js" as="script"><link rel="prefetch" href="/assets/sig-wg-lifecycle.html-BVIdXIwQ.js" as="script"><link rel="prefetch" href="/assets/staff-info.html-J8TenB4n.js" as="script"><link rel="prefetch" href="/assets/index.html-B-cznJ4t.js" as="script"><link rel="prefetch" href="/assets/mentee-guide.html-OSMvyUzd.js" as="script"><link rel="prefetch" href="/assets/mentor-guide.html-DrxyuSxS.js" as="script"><link rel="prefetch" href="/assets/index.html-BwGOSl2V.js" as="script"><link rel="prefetch" href="/assets/index.html-CpIeeGQP.js" as="script"><link rel="prefetch" href="/assets/wg-list.html-NLo8doQM.js" as="script"><link rel="prefetch" href="/assets/index.html-DgSI4vRJ.js" as="script"><link rel="prefetch" href="/assets/sig-charter-guide.html-DcbPGLnG.js" as="script"><link rel="prefetch" href="/assets/index.html-D68EhPQF.js" as="script"><link rel="prefetch" href="/assets/educational-learning-courses.html-DYOCBrG9.js" as="script"><link rel="prefetch" href="/assets/ospp.html-25c83WzB.js" as="script"><link rel="prefetch" href="/assets/project-based-mentorship.html-BxGdnTkl.js" as="script"><link rel="prefetch" href="/assets/index.html-Dn1WaXao.js" as="script"><link rel="prefetch" href="/assets/charter.html-DtsiAJuU.js" as="script"><link rel="prefetch" href="/assets/contributing.html-BpSgDmJn.js" as="script"><link rel="prefetch" href="/assets/index.html-DT5VyEaA.js" as="script"><link rel="prefetch" href="/assets/charter.html-BhtRD8B_.js" as="script"><link rel="prefetch" href="/assets/contributing.html-DnbGEwHd.js" as="script"><link rel="prefetch" href="/assets/index.html-yAAvFzKW.js" as="script"><link rel="prefetch" href="/assets/charter.html-DmjcMf1C.js" as="script"><link rel="prefetch" href="/assets/contributing.html-DvlSk6rP.js" as="script"><link rel="prefetch" href="/assets/index.html-B9Ct9KCJ.js" as="script"><link rel="prefetch" href="/assets/charter.html-Sp9QwJSp.js" as="script"><link rel="prefetch" href="/assets/contributing.html-CtoV8Qqk.js" as="script"><link rel="prefetch" href="/assets/index.html-Ca5-MeJZ.js" as="script"><link rel="prefetch" href="/assets/charter.html-CBaqZrHX.js" as="script"><link rel="prefetch" href="/assets/contributing.html-Bg8pHL-9.js" as="script"><link rel="prefetch" href="/assets/index.html-jw0yVKN0.js" as="script"><link rel="prefetch" href="/assets/charter.html-Qw36XXO7.js" as="script"><link rel="prefetch" href="/assets/contributing.html-HnVPfuc2.js" as="script"><link rel="prefetch" href="/assets/index.html-DP-5am-4.js" as="script">
+    <link rel="preload" href="/assets/style-C5Sxfh70.css" as="style"><link rel="stylesheet" href="/assets/style-C5Sxfh70.css">
+    <link rel="modulepreload" href="/assets/app-AJtVbUzn.js"><link rel="modulepreload" href="/assets/404.html-D7eYQ3Ze.js">
+    <link rel="prefetch" href="/assets/index.html-YIT5D83F.js" as="script"><link rel="prefetch" href="/assets/index.html-Q5NnNYHY.js" as="script"><link rel="prefetch" href="/assets/dragonos-community-conference.html-C-0KdgGZ.js" as="script"><link rel="prefetch" href="/assets/index.html-DQzX0SUG.js" as="script"><link rel="prefetch" href="/assets/cheat-sheet.html-BF1TW4NL.js" as="script"><link rel="prefetch" href="/assets/code-style.html-CWnH4OVA.js" as="script"><link rel="prefetch" href="/assets/code_of_conduct.html-BMxh79VF.js" as="script"><link rel="prefetch" href="/assets/expectation.html-B6wrTNNy.js" as="script"><link rel="prefetch" href="/assets/github-workflow.html-Bzvni2E9.js" as="script"><link rel="prefetch" href="/assets/pull-requests.html-CykXD19J.js" as="script"><link rel="prefetch" href="/assets/resources.html-BA2m-MPb.js" as="script"><link rel="prefetch" href="/assets/index.html-DjlTkvo_.js" as="script"><link rel="prefetch" href="/assets/annual-reports.html-DJBPhD2z.js" as="script"><link rel="prefetch" href="/assets/community-membership.html-Br-b7ki2.js" as="script"><link rel="prefetch" href="/assets/dev-group.html-CttVd5x4.js" as="script"><link rel="prefetch" href="/assets/sig-wg-lifecycle.html-DK9RBydt.js" as="script"><link rel="prefetch" href="/assets/staff-info.html-C2DKZFL4.js" as="script"><link rel="prefetch" href="/assets/index.html-AYugeenC.js" as="script"><link rel="prefetch" href="/assets/mentee-guide.html-B8cDhLJl.js" as="script"><link rel="prefetch" href="/assets/mentor-guide.html-iRjVytT6.js" as="script"><link rel="prefetch" href="/assets/index.html-eUboXmWi.js" as="script"><link rel="prefetch" href="/assets/index.html-Cfum_QGg.js" as="script"><link rel="prefetch" href="/assets/wg-list.html-BTT8Z5jc.js" as="script"><link rel="prefetch" href="/assets/index.html-CKCKO_oj.js" as="script"><link rel="prefetch" href="/assets/sig-charter-guide.html-BzErZvWD.js" as="script"><link rel="prefetch" href="/assets/index.html-DQs0OGVm.js" as="script"><link rel="prefetch" href="/assets/educational-learning-courses.html-CFWeGDUW.js" as="script"><link rel="prefetch" href="/assets/ospp.html-B97Jwcsi.js" as="script"><link rel="prefetch" href="/assets/project-based-mentorship.html-DYV4VR2p.js" as="script"><link rel="prefetch" href="/assets/index.html-M6S482eB.js" as="script"><link rel="prefetch" href="/assets/charter.html-p5BPhm70.js" as="script"><link rel="prefetch" href="/assets/contributing.html-Cht0pFXN.js" as="script"><link rel="prefetch" href="/assets/index.html-DmW7H7iK.js" as="script"><link rel="prefetch" href="/assets/charter.html-D8jMRPsN.js" as="script"><link rel="prefetch" href="/assets/contributing.html-BFk_62uY.js" as="script"><link rel="prefetch" href="/assets/index.html-CN56IAKi.js" as="script"><link rel="prefetch" href="/assets/charter.html-DbvsnCQ7.js" as="script"><link rel="prefetch" href="/assets/contributing.html-DUAlR0GQ.js" as="script"><link rel="prefetch" href="/assets/index.html-B755bsHL.js" as="script"><link rel="prefetch" href="/assets/charter.html-DPWnf6qh.js" as="script"><link rel="prefetch" href="/assets/contributing.html-pcmNptQ-.js" as="script"><link rel="prefetch" href="/assets/index.html-CzWLVMRD.js" as="script"><link rel="prefetch" href="/assets/charter.html-BpzOzicN.js" as="script"><link rel="prefetch" href="/assets/contributing.html-CtXbPXeR.js" as="script"><link rel="prefetch" href="/assets/index.html-BPBPSXpS.js" as="script"><link rel="prefetch" href="/assets/charter.html-CeOkgWJx.js" as="script"><link rel="prefetch" href="/assets/contributing.html-yD2ELu2L.js" as="script"><link rel="prefetch" href="/assets/index.html-CVXi4b-k.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a class="route-link" href="/">Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-CmntYhet.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-9461d1be><main class="page" data-v-9461d1be><div vp-content data-v-9461d1be><h1 data-v-9461d1be>404</h1><blockquote data-v-9461d1be>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-9461d1be>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-AJtVbUzn.js" defer></script>
   </body>
 </html>
