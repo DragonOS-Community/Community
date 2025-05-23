@@ -103,5 +103,6 @@ git push zhangsan patch-my-feature
 1. 打开你在GitHub上Fork的仓库 `https://github.com/<username>/DragonOS`
 2. 点击右上角的`Compare & Pull Request`按钮，然后选择分支`patch-my-feature`，目标为社区主仓库的`master`分支（或`main`分支）。
 3. 关于Pull Request的进一步要求，请查看[Pull Request流程介绍]
+4. 请注意：在提交PR前，请确保您已[关闭GitHub的匿名邮箱功能](./cheat-sheet.md#关掉匿名邮箱)，否则您的PR将无法通过审查。
 
 [Pull Request流程介绍]: /contributors/pull-requests.md

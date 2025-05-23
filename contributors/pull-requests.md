@@ -17,6 +17,8 @@
 
 **确保您的拉取请求符合我们的最佳实践。这些实践包括遵循项目规范、提交小的拉取请求以及充分注释。**
 
+请注意：在提交PR前，请确保您已[关闭GitHub的匿名邮箱功能](./cheat-sheet.md#关掉匿名邮箱)，否则您的PR将无法通过审查。
+
 
 ### 运行本地的测试
 
@@ -327,5 +329,3 @@ DragonOS社区使用`@dragonosbot`来执行自动化的工作流。
 [为DragonOS社区作出贡献]: /contributors/README.md
 [社区沟通渠道]: /communication/README.md
 [代码风格指南]: /contributors/code-style.md
-
-
